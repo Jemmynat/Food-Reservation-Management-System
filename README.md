@@ -32,20 +32,86 @@ This solution was built using **Microsoft Power Apps**, **Microsoft Power Automa
 ## 🧩 Application Screens
 
 ### 🏠 Home Screen
-- Entry point into the application
-- Provides navigation to key app functions
+🔧 Functional Highlights
+✅Central navigation hub: Serves as the main entry point into the system, guiding users to all core features.
+✅Role-based access support: Includes an Admin Menu option, indicating separation of standard user and administrative functionality.
+✅Reserve a Meal – initiates the food reservation workflow.
+✅Manage Reservations – allows users to view their reservations and admins to view, update, or track all existing reservations.
+✅Personalized experience: Displays a welcome message with the logged-in user’s name, reinforcing user context and session awareness.
+✅Real-time context display: Shows the current day and date, improving usability and situational awareness.
 
-  ![Home Screen](images/Frms_Home.png)
+
+![Home Screen](images/Frms_Home.png)
+
 
 ### 🛠 Admin Screen
-- Manage reservations and system data
-- Oversee employees and reservation records
+🔧 Functional Features
+✅Menu Management Dashboard
+   🧩Displays all available food items in a dynamic, responsive gallery.
+   🧩Each food card shows: 
+      *Food image 
+      *Food name 
+      +Price
+      *Action icons (Edit & Delete)
+
+
+![Admin Home Screen](images/frms_Admin1.png)
+
+
+✅Add New Food Item
+   🧩“Add New Item” button launches a modal-style form (container popup) without navigating away from the screen.
+   🧩Built using a context variable to control visibility, ensuring a smooth in-app experience.
+
+✅Food Item Creation Form
+   🧩Admins can input:
+       *Food name
+       *Food description
+       *Price
+       *Food image upload
+       *Availability status (toggle control)
+   🧩Submit button saves data directly to the SharePoint list.
+
+
+![Admin New Screen](images/Frms_Admin-New.png)
+
+
+✅Edit Existing Items
+   🧩Each food card includes an edit icon.
+   🧩Allows administrators to update menu details quickly.
+
+![Admin Edit Screen](images/Frms_Admin-Edit.png)
+
+
+✅Delete Functionality
+   🧩Trash icon enables removal of menu items from the system.
+   🧩Supports real-time data management.
+
+
+![Admin Delete Screen](images/Frms_Admin-Delete.png)
+
+
+✅Search Functionality
+  🧩Search bar allows admins to filter food items by name.
+  🧩Improves usability when managing large menus.
+
+
+![Admin Search Screen](images/frms_Admin-Search.png)
+
+
+✅Navigation Control
+   🧩Toggle buttons at the top allow switching between:
+   🧩Menu view
+
 
 ![Admin Screen](images/frms_Admin1.png)
+
 
 ### 📅 Reservation Screen
 - Capture and manage food reservation details
 - View reservation status and information
+- Manage reservations and system data
+- Oversee employees and reservation records
+
 
 ![Admin Screen](images/frms_Admin-Search.png)
 
