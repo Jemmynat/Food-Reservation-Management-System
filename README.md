@@ -113,13 +113,13 @@ This solution was built using **Microsoft Power Apps**, **Microsoft Power Automa
 - Oversee employees and reservation records
 
 
-![Reservation Screen](Frms_Menu-reservation.png)
+![Reservation Screen](images/Frms_Menu-reservation.png)
 
 ### 👥 Employee Screen
 - Allows employees to view assigned reservations
 - Supports operational coordination
 
-![Employee Screen](Frms_Reservation.png)
+![Employee Screen](images/Frms_Reservation.png)
 
 ---
 
