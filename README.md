@@ -1,6 +1,6 @@
 # 🍽 Food Reservation Management System
 
-A Power Apps–based food reservation management solution designed to streamline reservation handling, employee coordination, and administrative oversight using SharePoint as the data source.
+The Food Reservation Management System provides a centralized platform for managing food reservations with role-based access for administrators and employees. The solution improves visibility, reduces manual coordination, and ensures reservations are managed efficiently.
 
 
 ![Home Screen](FRMS_HomeScrn.png)
@@ -8,7 +8,7 @@ A Power Apps–based food reservation management solution designed to streamline
 ---
 
 ## 📌 Overview
-The Food Reservation Management System provides a centralized platform for managing food reservations with role-based access for administrators and employees. The solution improves visibility, reduces manual coordination, and ensures reservations are managed efficiently.
+A Power Apps–based food reservation management solution designed to streamline reservation handling, employee coordination, and administrative oversight using SharePoint as the data source.
 
 ---
 
@@ -113,11 +113,13 @@ This solution was built using **Microsoft Power Apps**, **Microsoft Power Automa
 - Oversee employees and reservation records
 
 
-![Admin Screen](images/frms_Admin-Search.png)
+![Reservation Screen](Frms_Menu-reservation.png)
 
 ### 👥 Employee Screen
 - Allows employees to view assigned reservations
 - Supports operational coordination
+
+![Employee Screen](Frms_Reservation.png)
 
 ---
 
@@ -129,10 +131,23 @@ This solution was built using **Microsoft Power Apps**, **Microsoft Power Automa
 
 ---
 
+## 🗃 Data Model (SharePoint)
+
+The application uses **four SharePoint lists** as its data source:
+
+- Reservation data
+- Employee data
+- Administrative records
+- Supporting lookup/reference data
+
+📄 Detailed table structure is documented in `/data/sharepoint-tables.md`
+
+---
+
 ## ⚙️ Technology Stack
 - Power Apps  
 - Power Automate  
-- Dataverse / SharePoint  
+- SharePoint  
 - Microsoft 365  
 
 ---
@@ -141,11 +156,6 @@ This solution was built using **Microsoft Power Apps**, **Microsoft Power Automa
 - Reduced manual reservation handling
 - Improved accuracy and visibility of bookings
 - Faster response time to customer requests
-
----
-
-## 📸 Screenshots
-*(Add screenshots of the app interface and flows here)*
 
 ---
 
@@ -161,5 +171,3 @@ Power Platform Functional Consultant
 - GitHub: https://github.com/jemmynat  
 - LinkedIn: https://linkedin.com/in/jemmynat-oriade  
 
-
-## 🗂 Repository Structure
