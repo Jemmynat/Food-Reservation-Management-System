@@ -33,12 +33,12 @@ This solution was built using **Microsoft Power Apps**, **Microsoft Power Automa
 
 ### 🏠 Home Screen
 🔧 Functional Highlights
-✅Central navigation hub: Serves as the main entry point into the system, guiding users to all core features.
-✅Role-based access support: Includes an Admin Menu option, indicating separation of standard user and administrative functionality.
-✅Reserve a Meal – initiates the food reservation workflow.
-✅Manage Reservations – allows users to view their reservations and admins to view, update, or track all existing reservations.
-✅Personalized experience: Displays a welcome message with the logged-in user’s name, reinforcing user context and session awareness.
-✅Real-time context display: Shows the current day and date, improving usability and situational awareness.
+✅ Central navigation hub: Serves as the main entry point into the system, guiding users to all core features.
+✅ Role-based access support: Includes an Admin Menu option, indicating separation of standard user and administrative functionality.
+✅ Reserve a Meal – initiates the food reservation workflow.
+✅ Manage Reservations – allows users to view their reservations and admins to view, update, or track all existing reservations.
+✅ Personalized experience: Displays a welcome message with the logged-in user’s name, reinforcing user context and session awareness.
+✅ Real-time context display: Shows the current day and date, improving usability and situational awareness.
 
 
 ![Home Screen](images/Frms_Home.png)
