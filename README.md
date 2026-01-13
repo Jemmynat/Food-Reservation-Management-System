@@ -35,15 +35,19 @@ This solution was built using **Microsoft Power Apps**, **Microsoft Power Automa
 - Entry point into the application
 - Provides navigation to key app functions
 
-  ![Home Screen](FRMS_HomeScrn.png)
+  ![Home Screen](images/Frms_Home.png)
 
 ### 🛠 Admin Screen
 - Manage reservations and system data
 - Oversee employees and reservation records
 
+![Admin Screen](images/frms_Admin1.png)
+
 ### 📅 Reservation Screen
 - Capture and manage food reservation details
 - View reservation status and information
+
+![Admin Screen](images/frms_Admin-Search.png)
 
 ### 👥 Employee Screen
 - Allows employees to view assigned reservations
